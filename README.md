@@ -16,7 +16,13 @@ Steganography software is employed to perform a range of functions to cover data
 # What are the advantages of steganography over cryptography?
 What are the benefits of steganography over cryptography? Steganography is distinct from cryptography, but using both together can help improve the safety of the protected information and forestall detection of the key communication. If steganographically-hidden data is additionally encrypted, the info should be safe from detection -- though the channel will not be safe from detection. There are advantages to using steganography combined with encryption over encryption-only communication. The primary advantage of using steganography to cover data over encryption is that it helps obscure the actual fact that there's sensitive data hidden within the file or other content carrying the hidden text. Whereas an encrypted file, message or network packet payload is clearly marked and identifiable intrinsically, using steganographic techniques helps to obscure the presence of the secure channel.
 > Check screenshot below to see how it can be done:
-![OpenStego Hide Data](https://www.openstego.com/image/screenshot/01.png)
+
+<details>
+<summary>Preview</summary>
+  <body>
+    <img src="https://www.openstego.com/image/screenshot/01.png">
+  </body>
+</details>
 
 # How is steganography used today?
 In modern digital steganography, data is first encrypted or obfuscated in our way and then inserted, employing a special algorithm, into data that's an element of a particular file format sort of a _JPEG image, audio,_ or _video file_. The key message is often embedded into ordinary data files in many alternative ways. 
