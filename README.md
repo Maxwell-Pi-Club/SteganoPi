@@ -1,33 +1,193 @@
-# SteganographyGUI
-[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
-> A GUI Steganography Application for Windows Using C# or C++
+<div id="top"></div>
 
-### This Project is under development ⚙️
+<h1 align="center"> AP course project  </h1>
 
-# 1.What Is Steganography? 
+![Version][version-sheild]
+![Downloads][download-sheild]
+[![Contributors][contributors-shield]][contributors-url]
+[![Forks][forks-shield]][forks-url]
+[![Stargazers][stars-shield]][stars-url]
+[![MIT License][license-shield]][license-url]
 
-**Steganography** (/ˌstɛɡəˈnɒɡrəfi/) is the practice of concealing a message within another message or a physical object. In computing/electronic contexts, a computer file, message, image, or video is concealed within another file, message, image, or video.
 
-![Steganography](https://media.wired.com/photos/594db1717c1bde11fe06f341/master/w_120)
+<!-- PROJECT LOGO -->
+<br />
+<div align="center">
 
-# Steganography software
-Steganography software is employed to perform a range of functions to cover data, including encoding the information in order to organize it to be hidden inside another file, keeping track of which bits of the quilt computer file contains hidden data, encrypting the info to be hidden and extracting hidden data by its intended recipient. There are proprietaries furthermore as open-source and other free-to-use programs available for doing steganography. **[OpenStego](https://www.openstego.com/)** is an open-source steganography program; other programs will be characterized by the kinds of information which will be hidden still as what forms of files that data may be hidden inside. Some online steganography software tools include **Xiao Steganography**, accustomed hide secret files in BMP images or WAV files; **Image Steganography**, a Javascript tool that hides images inside other image files; and **Crypture** , a command-line tool that's wont to perform steganography.
+  <h3 align="center"> MasterMind Game🎲</h3>
+  <p align="center"><img src="./stuff/game.gif" width="110"></p>
+  <p align="center">
+   A "Mastermind" game designed with PyQt5 (Qt+Python)
+    <br />
+    <a href="https://github.com/RabihND/AP2021-2022-Final"><strong>Explore the documents »</strong></a>
+    <br />
+    <br />
+  </p>
+</div>
 
-# What are the advantages of steganography over cryptography?
-What are the benefits of steganography over cryptography? Steganography is distinct from cryptography, but using both together can help improve the safety of the protected information and forestall detection of the key communication. If steganographically-hidden data is additionally encrypted, the info should be safe from detection -- though the channel will not be safe from detection. There are advantages to using steganography combined with encryption over encryption-only communication. The primary advantage of using steganography to cover data over encryption is that it helps obscure the actual fact that there's sensitive data hidden within the file or other content carrying the hidden text. Whereas an encrypted file, message or network packet payload is clearly marked and identifiable intrinsically, using steganographic techniques helps to obscure the presence of the secure channel.
-> Check screenshot below to see how it can be done:
 
+---
+
+<!-- TABLE OF CONTENTS -->
 <details>
-<summary>Preview</summary>
+  <summary>Table of Contents</summary> 
+  <ol>
+    <li><a href="#about-the-project">About The Project</a></li>
+    <li><a href="#parts">Parts</a></li>
+    <li><a href="#results">Results</a></li>
+    <li><a href="#license">License</a></li>
+    <li><a href="#refenences">Refenences</a></li>
+    <li><a href="#contact">Contact</a></li>
+    <li><a href="#roadmap">Roadmap</a></li>
+  </ol>
+</details>
+
+
+
+<!-- ABOUT THE PROJECT -->
+## About The Project
+<p align="center"> <img  src="./stuff/mastermind.jpg" width="1000"> </p>  
+<p align="justify"><b>Mastermind</b> is a code-breaking game in which two players compete against each other. The game begins when the first participant, dubbed <b>"The Codemaker"</b>, generates a four-digit (color) code that is hidden. The second participant, dubbed <b>"The Codebreaker"</b> then guesses a code.</p>
+
+<p align="justify">The codemaker then evaluates the estimate by handing certain black and white pins to the codebreaker (plus and minus in the paper version). The codebreaker guesses another code based on the evaluation, and the game continues until the codebreaker finds (or fails to locate) the concealed code within the maximum number of <b>tries</b>.
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+
+### Built With
+
+Major frameworks/libraries used in this project:
+
+* [Python 3.10](https://www.python.org/)
+* [PyQt5](https://www.riverbankcomputing.com/software/pyqt/)
+* [CX_Freeze](https://github.com/marcelotduarte/cx_Freeze)
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+
+<!-- PARTS -->
+## Parts
+**1. Master Mind Class**
+
+The main MasterMind game Process; it contains:
+- **get_random_solution()**:  Returns a random "solution" to be the hidden code.
+- **check_guess()**: Returns the nb of "correct" and nb of "misplaced" guess.
+- **get_correct_colors()**: Returns the "correct" colors.
+- **get_misplaced_colors()**: Returns the "misplaced" colors.
+- **is_won()**: Verify that the guess is correct according to the solution.
+ 
+**2. MainWindowUi  Class** (GUI_Window)
+
+The main window of the game designed by Qt; it contains:
+- **setupUi()**: The QT codes that generate the main window.
+- **resetButtonClicked()**:  That delete the selected colors.
+- **set_thisguesstable()**: connect the colors.
+- **clicked_color()**: Send the selected colors to the Guess table.
+- **clicked_submit()**:  After clicking the submit button; its check the guess and return the score to the Scores Table.
+- **show_game_over()**: Show the Game Over Dialog.
+-**print_score()**: print score in the terminal (NOT GUI).
+
+**3. GameOverWindow Class** (GUI_Window)
+
+The resulting window, which shows the player's loss(+) or victory(-).
+- **display_text()**: Return a text with include the result of the game.(Win/Loss)
+
+**4. Splash Screen Class** (GUI_Windows)
+>{⌛} 
+
+
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+<!-- RESULTS -->
+## Results
+
+**GUI OUTPUT:**
+<details>
+<summary>ScreenShoot Preview 🖼️</summary>
   <body>
-    <img src="https://www.openstego.com/image/screenshot/01.png">
+    <p align="center"> <img src="./stuff/GUI_output.jpg" width="200"> </p>
   </body>
 </details>
 
-# How is steganography used today?
-In modern digital steganography, data is first encrypted or obfuscated in our way and then inserted, employing a special algorithm, into data that's an element of a particular file format sort of a _JPEG image, audio,_ or _video file_. The key message is often embedded into ordinary data files in many alternative ways. 
+---
 
-One technique is to hide data in bits that represent the identical color pixels repeated during a row in an exceeding picture file. By applying the encrypted data to this redundant data in some inconspicuous way, the result is visiting be an image file that appears an image for the primary image but that has "noise" patterns of ordinary, unencrypted data. 
-The practice of adding a watermark -- a trademark or other identifying data hidden in multimedia or other content files -- is one common use of steganography. Watermarking may be a method often utilized by online publishers to identify the source of media files that are found to be shared without permission. While there are many alternative uses of steganography, including embedding sensitive information into file types, one in all the foremost common techniques is to embed a document into an image file. When this can be often done, anyone viewing the image file mustn't be able to see a difference between the initial image file and thus the encrypted file; this can be often accomplished by storing the message with decreased bites within the record. This process could also be completed manually or with the employment of a steganography tool.
+**TERMINAL OUTPUT:**
+<details>
+<summary>ScreenShoot Preview 🖼️</summary>
+  <body>
+    <p align="center"> <img src="./stuff/terminal_output.jpg" width="300"> </p>
+  </body>
+</details>
 
-**...**
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+<!-- LICENSE -->
+## License
+
+Distributed under the MIT License. See `LICENSE.txt` for more information.
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+<!-- REFERENCES -->
+## Refenences
+
+🔎
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+
+
+<!-- CONTACT -->
+## Contacts
+
+
+Rabih ND - [@RabihND](https://github.com/RabihND) 
+
+Hasan Sanei - [@hasansanei](https://github.com/hasansanei)
+
+**Project Link:** [https://github.com/RabihND/AP2021-2022-Final](https://github.com/RabihND/AP2021-2022-Final)
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+
+<!-- ROADMAP -->
+## Roadmap
+
+- [x] Write the main code-map.
+- [x] Design the GUI window. 
+- [x] Write the MasterMain Core Functions.
+- [x] Design the GameOver window.
+- [x] <a href="https://github.com/RabihND/AP2021-2022-Final/releases/latest"><strong>Build the .EXE Release</strong></a>
+- [ ] Splash screen
+- [ ] Build APK release.
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+
+---
+<div align="center">
+<p>
+<img src="./stuff/logo.png" width="110">
+<p align="center"><b>
+Amirkabir University  of Technology</b>
+
+(Tehran Polytechnic)
+</p>
+</p>
+</div>
+
+
+<!-- MARKDOWN LINKS & IMAGES -->
+<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
+[version-sheild]: https://img.shields.io/github/v/release/RabihND/AP2021-2022-Final?color=14adfa&logo=Semantic%20Web&logoColor=14adfa&style=for-the-badge
+[download-sheild]: https://img.shields.io/github/downloads/RabihND/AP2021-2022-Final/total?logo=App%20Store&logoColor=white&style=for-the-badge
+[line-sheild]: https://img.shields.io/tokei/lines/github/RabihND/AP2021-2022-Final?color=green&logo=visualstudiocode&style=for-the-badge
+[contributors-shield]: https://img.shields.io/github/contributors/RabihND/AP2021-2022-Final?color=6fd671&logo=WhiteSource&style=for-the-badge
+[contributors-url]: https://github.com/RabihND/AP2021-2022-Final/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/RabihND/AP2021-2022-Final?color=cccccc&logo=Node-RED&style=for-the-badge
+[forks-url]: https://github.com/RabihND/AP2021-2022-Final//network/members
+[stars-shield]: https://img.shields.io/github/stars/RabihND/AP2021-2022-Final?color=8e6be8&logo=Ethereum&logoColor=8e6be8&style=for-the-badge
+[stars-url]: https://github.com/RabihND/AP2021-2022-Final/stargazers
+[license-shield]: https://img.shields.io/github/license/RabihND/AP2021-2022-Final?color=%2363afdb&logo=letsencrypt&style=for-the-badge
+[license-url]: https://github.com/RabihND/AP2021-2022-Final/master/LICENSE.txt
