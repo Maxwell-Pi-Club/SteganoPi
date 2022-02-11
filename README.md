@@ -2,22 +2,32 @@
 
 <h1 align="center"> AP course project  </h1>
 
-![Version][version-sheild]
-![Downloads][download-sheild]
-[![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![MIT License][license-shield]][license-url]
-
+<p align="center">
+    <a alt="Version">
+        <img src="https://img.shields.io/github/v/release/RabihND/SteganographyGUI?color=14adfa&logo=Semantic%20Web&logoColor=14adfa&style=for-the-badge" /></a>
+    <a  alt="Downloads">
+        <img src="https://img.shields.io/github/downloads/RabihND/SteganographyGUI/total?logo=App%20Store&logoColor=white&style=for-the-badge" /></a>
+    <a href="https://github.com/RabihND/SteganographyGUI/graphs/contributors" alt="Contributers">
+        <img src="https://img.shields.io/github/contributors/RabihND/SteganographyGUI?color=6fd671&logo=WhiteSource&style=for-the-badge" /></a>
+    <a href="https://github.com/RabihND/SteganographyGUI//network/members" alt="Forks">
+        <img src="https://img.shields.io/github/forks/RabihND/SteganographyGUI?color=cccccc&logo=Node-RED&style=for-the-badge" /></a>
+    <a href=" https://github.com/RabihND/SteganographyGUI/stargazers">
+        <img src="https://img.shields.io/github/stars/RabihND/SteganographyGUI?color=8e6be8&logo=Ethereum&logoColor=8e6be8&style=for-the-badge" alt="Stars" /></a>
+    <a alt="Visitors">
+        <img src="https://visitor-badge-reloaded.herokuapp.com/badge?page_id=RabihND/SteganographyGUI?color=14adfa&logo=Android&style=for-the-badge" /></a>
+    <a href="https://github.com/RabihND/SteganographyGUI/master/LICENSE.txt">
+        <img src="https://img.shields.io/github/license/RabihND/SteganographyGUI?color=%2363afdb&logo=letsencrypt&style=for-the-badge" alt="License"></a>
+    
+</p>
 
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
 
-  <h3 align="center"> MasterMind Game🎲</h3>
-  <p align="center"><img src="./stuff/game.gif" width="110"></p>
+  <h3 align="center"> Steganography 📟</h3>
+  <p align="center"><img src="./stuff/wing.png" width="250"></p>
   <p align="center">
-   A "Mastermind" game designed with PyQt5 (Qt+Python)
+    A GUI Steganography Application for Windows Using C# or C++
     <br />
     <a href="https://github.com/RabihND/AP2021-2022-Final"><strong>Explore the documents »</strong></a>
     <br />
@@ -46,10 +56,8 @@
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
-<p align="center"> <img  src="./stuff/mastermind.jpg" width="1000"> </p>  
-<p align="justify"><b>Mastermind</b> is a code-breaking game in which two players compete against each other. The game begins when the first participant, dubbed <b>"The Codemaker"</b>, generates a four-digit (color) code that is hidden. The second participant, dubbed <b>"The Codebreaker"</b> then guesses a code.</p>
-
-<p align="justify">The codemaker then evaluates the estimate by handing certain black and white pins to the codebreaker (plus and minus in the paper version). The codebreaker guesses another code based on the evaluation, and the game continues until the codebreaker finds (or fails to locate) the concealed code within the maximum number of <b>tries</b>.
+<p align="center"> <img  src="https://media.wired.com/photos/594db1717c1bde11fe06f341/master/w_120" width="1000" > </p>  
+<p align="justify"><b>Steganography</b> (/ˌstɛɡəˈnɒɡrəfi/) is the practice of concealing a message within another message or a physical object. In computing/electronic contexts, a computer file, message, image, or video is concealed within another file, message, image, or video.</p>
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -58,23 +66,18 @@
 
 Major frameworks/libraries used in this project:
 
-* [Python 3.10](https://www.python.org/)
-* [PyQt5](https://www.riverbankcomputing.com/software/pyqt/)
-* [CX_Freeze](https://github.com/marcelotduarte/cx_Freeze)
+* [C#](https://en.wikipedia.org/wiki/C_Sharp_(programming_language))
+* [Visual Studio 2019](https://visualstudio.microsoft.com/vs/community/)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 
 <!-- PARTS -->
 ## Parts
-**1. Master Mind Class**
+**1. Steganography software**
 
-The main MasterMind game Process; it contains:
-- **get_random_solution()**:  Returns a random "solution" to be the hidden code.
-- **check_guess()**: Returns the nb of "correct" and nb of "misplaced" guess.
-- **get_correct_colors()**: Returns the "correct" colors.
-- **get_misplaced_colors()**: Returns the "misplaced" colors.
-- **is_won()**: Verify that the guess is correct according to the solution.
+<p align="justify"> Steganography software is employed to perform a range of functions to cover data, including encoding the information in order to organize it to be hidden inside another file, keeping track of which bits of the quilt computer file contains hidden data, encrypting the info to be hidden and extracting hidden data by its intended recipient. There are proprietaries furthermore as open-source and other free-to-use programs available for doing steganography. <b><a href="https://www.openstego.com/">OpenStego</a></b> is an open-source steganography program; other programs will be characterized by the kinds of information which will be hidden still as what forms of files that data may be hidden inside. Some online steganography software tools include <b>Xiao Steganography</b>, accustomed hide secret files in BMP images or WAV files; <b>Image Steganography</b>, a Javascript tool that hides images inside other image files; and <b>Crypture</b>, a command-line tool that's wont to perform steganography.</p>
+
  
 **2. MainWindowUi  Class** (GUI_Window)
 
@@ -178,16 +181,4 @@ Amirkabir University  of Technology</b>
 </div>
 
 
-<!-- MARKDOWN LINKS & IMAGES -->
-<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[version-sheild]: https://img.shields.io/github/v/release/RabihND/AP2021-2022-Final?color=14adfa&logo=Semantic%20Web&logoColor=14adfa&style=for-the-badge
-[download-sheild]: https://img.shields.io/github/downloads/RabihND/AP2021-2022-Final/total?logo=App%20Store&logoColor=white&style=for-the-badge
-[line-sheild]: https://img.shields.io/tokei/lines/github/RabihND/AP2021-2022-Final?color=green&logo=visualstudiocode&style=for-the-badge
-[contributors-shield]: https://img.shields.io/github/contributors/RabihND/AP2021-2022-Final?color=6fd671&logo=WhiteSource&style=for-the-badge
-[contributors-url]: https://github.com/RabihND/AP2021-2022-Final/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/RabihND/AP2021-2022-Final?color=cccccc&logo=Node-RED&style=for-the-badge
-[forks-url]: https://github.com/RabihND/AP2021-2022-Final//network/members
-[stars-shield]: https://img.shields.io/github/stars/RabihND/AP2021-2022-Final?color=8e6be8&logo=Ethereum&logoColor=8e6be8&style=for-the-badge
-[stars-url]: https://github.com/RabihND/AP2021-2022-Final/stargazers
-[license-shield]: https://img.shields.io/github/license/RabihND/AP2021-2022-Final?color=%2363afdb&logo=letsencrypt&style=for-the-badge
-[license-url]: https://github.com/RabihND/AP2021-2022-Final/master/LICENSE.txt
+
