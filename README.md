@@ -27,7 +27,7 @@
   <h3 align="center"> Steganography 📟</h3>
   <p align="center"><img src="./stuff/wing.png" width="250"></p>
   <p align="center">
-    A GUI Steganography Application for Windows Using C# or C++
+    A GUI Steganography Application for Windows Using C#
     <br />
     <a href="https://github.com/RabihND/AP2021-2022-Final"><strong>Explore the documents »</strong></a>
     <br />
