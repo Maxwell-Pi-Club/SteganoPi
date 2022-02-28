@@ -1,6 +1,6 @@
 <div id="top"></div>
 
-<h1 align="center"> Steganography GUI  </h1>
+<h1 align="center">SteganoPi [Demo Version]  </h1>
 
 <p align="center">
     <a alt="Version">
