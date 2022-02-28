@@ -140,6 +140,7 @@ Rabih ND - [@RabihND](https://github.com/RabihND)
 - [x] Publish the Demo version.
 - [ ] Add the Audio Part.
 - [ ] Add the Text Part.
+- [ ] Make a document website.
 - [ ] ReDesign the UI window.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
