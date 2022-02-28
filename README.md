@@ -4,19 +4,19 @@
 
 <p align="center">
     <a alt="Version">
-        <img src="https://img.shields.io/github/v/release/RabihND/SteganographyGUI?color=14adfa&logo=Semantic%20Web&logoColor=14adfa&style=for-the-badge" /></a>
+        <img src="https://img.shields.io/github/v/release/Maxwell-Pi-Club/SteganoPi?color=14adfa&logo=Semantic%20Web&logoColor=14adfa&style=for-the-badge" /></a>
     <a  alt="Downloads">
-        <img src="https://img.shields.io/github/downloads/RabihND/SteganographyGUI/total?logo=App%20Store&logoColor=white&style=for-the-badge" /></a>
-    <a href="https://github.com/RabihND/SteganographyGUI/graphs/contributors" alt="Contributers">
-        <img src="https://img.shields.io/github/contributors/RabihND/SteganographyGUI?color=6fd671&logo=WhiteSource&style=for-the-badge" /></a>
-    <a href="https://github.com/RabihND/SteganographyGUI//network/members" alt="Forks">
-        <img src="https://img.shields.io/github/forks/RabihND/SteganographyGUI?color=cccccc&logo=Node-RED&style=for-the-badge" /></a>
-    <a href=" https://github.com/RabihND/SteganographyGUI/stargazers">
-        <img src="https://img.shields.io/github/stars/RabihND/SteganographyGUI?color=8e6be8&logo=Ethereum&logoColor=8e6be8&style=for-the-badge" alt="Stars" /></a>
+        <img src="https://img.shields.io/github/downloads/Maxwell-Pi-Club/SteganoPi/total?logo=App%20Store&logoColor=white&style=for-the-badge" /></a>
+    <a href="https://github.com/Maxwell-Pi-Club/SteganoPi/graphs/contributors" alt="Contributers">
+        <img src="https://img.shields.io/github/contributors/Maxwell-Pi-Club/SteganoPi?color=6fd671&logo=WhiteSource&style=for-the-badge" /></a>
+    <a href="https://github.com/Maxwell-Pi-Club/SteganoPi//network/members" alt="Forks">
+        <img src="https://img.shields.io/github/forks/Maxwell-Pi-Club/SteganoPi?color=cccccc&logo=Node-RED&style=for-the-badge" /></a>
+    <a href=" https://github.com/Maxwell-Pi-Club/SteganoPi/stargazers">
+        <img src="https://img.shields.io/github/stars/Maxwell-Pi-Club/SteganoPi?color=8e6be8&logo=Ethereum&logoColor=8e6be8&style=for-the-badge" alt="Stars" /></a>
     <a alt="Visitors">
-        <img src="https://visitor-badge-reloaded.herokuapp.com/badge?page_id=RabihND/SteganographyGUI?color=14adfa&logo=Android&style=for-the-badge" /></a>
-    <a href="https://github.com/RabihND/SteganographyGUI/master/LICENSE.txt">
-        <img src="https://img.shields.io/github/license/RabihND/SteganographyGUI?color=%2363afdb&logo=letsencrypt&style=for-the-badge" alt="License"></a>
+        <img src="https://visitor-badge-reloaded.herokuapp.com/badge?page_id=Maxwell-Pi-Club/SteganoPi?color=14adfa&logo=Android&style=for-the-badge" /></a>
+    <a href="https://github.com/Maxwell-Pi-Club/SteganoPi/master/LICENSE.txt">
+        <img src="https://img.shields.io/github/license/Maxwell-Pi-Club/SteganoPi?color=%2363afdb&logo=letsencrypt&style=for-the-badge" alt="License"></a>
     
 </p>
 
@@ -29,7 +29,7 @@
   <p align="center">
     A GUI Steganography Application for Windows Using C#
     <br />
-    <a href="https://github.com/RabihND/AP2021-2022-Final"><strong>Explore the documents »</strong></a>
+    <a href="https://github.com/Maxwell-Pi-Club/SteganoPi"><strong>Explore the documents »</strong></a>
     <br />
     <br />
   </p>
@@ -129,7 +129,7 @@ Distributed under the GPL-3.0 License. See `LICENSE.txt` for more information.
 
 Rabih ND - [@RabihND](https://github.com/RabihND) 
 
-**Project Link:** [https://github.com/RabihND/SteganographyGUI](https://github.com/RabihND/SteganographyGUI)
+**Project Link:** [https://github.com/Maxwell-Pi-Club/SteganoPi](https://github.com/Maxwell-Pi-Club/SteganoPi)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -137,6 +137,10 @@ Rabih ND - [@RabihND](https://github.com/RabihND)
 <!-- ROADMAP -->
 ## Roadmap
 
+- [x] Publish the Demo version.
+- [ ] Add the Audio Part.
+- [ ] Add the Text Part.
+- [ ] ReDesign the UI window.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
