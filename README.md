@@ -138,6 +138,8 @@ Rabih ND - [@RabihND](https://github.com/RabihND)
 ## Roadmap
 
 - [x] Publish the Demo version.
+- [x] <a href="https://github.com/Maxwell-Pi-Club/SteganoPi/releases/latest"><strong>Build the .msi Setup</strong></a>
+- [ ] Splash screen
 - [ ] Add the Audio Part.
 - [ ] Add the Text Part.
 - [ ] Make a document website.
