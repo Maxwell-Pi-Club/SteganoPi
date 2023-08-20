@@ -13,8 +13,6 @@
         <img src="https://img.shields.io/github/forks/Maxwell-Pi-Club/SteganoPi?color=cccccc&logo=Node-RED&style=for-the-badge" /></a>
     <a href=" https://github.com/Maxwell-Pi-Club/SteganoPi/stargazers">
         <img src="https://img.shields.io/github/stars/Maxwell-Pi-Club/SteganoPi?color=8e6be8&logo=Ethereum&logoColor=8e6be8&style=for-the-badge" alt="Stars" /></a>
-    <a alt="Visitors">
-        <img src="https://visitor-badge-reloaded.herokuapp.com/badge?page_id=Maxwell-Pi-Club/SteganoPi?color=14adfa&logo=Android&style=for-the-badge" /></a>
     <a href="https://github.com/Maxwell-Pi-Club/SteganoPi/master/LICENSE.txt">
         <img src="https://img.shields.io/github/license/Maxwell-Pi-Club/SteganoPi?color=%2363afdb&logo=letsencrypt&style=for-the-badge" alt="License"></a>
     
